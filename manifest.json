@@ -1,0 +1,15 @@
+{
+  "name": "reopen-last-tab",
+  "version": "0.1",
+  "description": "Reopen the last closed tab.",
+  "manifest_version": 2,
+  "permissions": ["sessions"],
+  "background": {
+    "scripts": ["out/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon/icon.png",
+    "default_title": "Reopen last tab"
+  }
+}
